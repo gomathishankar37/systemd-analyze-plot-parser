@@ -1,4 +1,4 @@
-# systemd-analyze SVG parser
+# systemd-analyze plot SVG parser
 
 This is a Python script that extracts systemd service data from systemd-analyze plot command output (SVG format) and stores it in a MySQL database. It parses the SVG file and retrieves relevant data, such as service name, activation time, start time, and category, and then stores that data in a table for each build.
 
