@@ -37,7 +37,12 @@ To run this script, you need:
 1. Install the required libraries: `pip install mysql-connector-python svgelements`
 2. Run the script with the directories containing your systemd-analyze plot SVG files as arguments. For example: `python3 analyze_plotter.py dir1/ dir2/ dir3/`
 ![image of file structure](./file-structure.png)
+<sub>File Structure</sub>
 
+## Sample Grafana Dashboard
+Below is a sample Grafana Dashboard with a few Panels to get insights on the parsed Data from systemd-analyze SVG file
+![image of sample dashboard](./sample-dashboard-snapshot.png)
+<sub>A Sample Dashboard Snapshot</sub>
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the LICENSE file for details.
